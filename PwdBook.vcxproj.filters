@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyPass.cpp">
+    <ClCompile Include="PwdBook.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="data.cpp">
