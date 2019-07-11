@@ -10,7 +10,7 @@ void addInfo(RECORD rcd[], int* pnCount)
 	int i = *pnCount;			//记录标识
 	chkPosErr(i);
 
-	showInputMenu(rcd,i);		//据提示键入记录
+	showInputMenu(rcd, i);		//据提示键入记录
 
 	(*pnCount)++;				//记录+1
 	saveFile(rcd, *pnCount);	//保存文件
@@ -59,7 +59,7 @@ void modifyInfo(RECORD rcd[], int nCount)
 
 	//据提示键入信息
 	printf("开始修改：\n");
-	showInputMenu(rcd,i);
+	showInputMenu(rcd, i);
 
 	saveFile(rcd, nCount);
 
