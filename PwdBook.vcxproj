@@ -125,11 +125,13 @@
   <ItemGroup>
     <ClCompile Include="ctrl.cpp" />
     <ClCompile Include="data.cpp" />
+    <ClCompile Include="func.cpp" />
     <ClCompile Include="PwdBook.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ctrl.h" />
     <ClInclude Include="data.h" />
+    <ClInclude Include="func.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
