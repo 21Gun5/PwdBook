@@ -11,4 +11,3 @@ char* encode(char* buf, int n);					//加密
 char* decode(char* buf, int n);					//解密
 void showInputMenu(RECORD rcd[], int i);		//引导用户输入
 void printRecord(RECORD rcd[], int i);			//打印某记录
-//void time4File();								//文件名包含时间

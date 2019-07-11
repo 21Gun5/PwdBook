@@ -101,11 +101,6 @@ void saveFile(RECORD rcd[], int nCount)
 	return;
 }
 
-//void time4File()
-//{
-//
-//}
-
 void showMenu()
 {
 	printf("√‹¬Î±æ π”√\n");
