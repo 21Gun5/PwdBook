@@ -15,6 +15,7 @@ void addInfo(RECORD rcd[], int* pnCount)
 	(*pnCount)++;				//记录+1
 	saveFile(rcd, *pnCount);	//保存文件
 
+	printf("添加成功！\n\n");
 	return;
 }
 
@@ -26,7 +27,8 @@ void viewAllInfo(RECORD rcd[], int nCount)
 	{
 		printRecord(rcd, i);
 	}
-	printf("\n");
+	
+	printf("查看成功！\n\n");
 
 	return;
 }
@@ -47,6 +49,7 @@ void deleteInfo(RECORD rcd[], int* pnCount)
 	(*pnCount)--;
 	saveFile(rcd, *pnCount);
 
+	printf("删除成功！\n\n");
 	return;
 }
 
@@ -62,7 +65,7 @@ void modifyInfo(RECORD rcd[], int nCount)
 	showInputMenu(rcd, i);
 
 	saveFile(rcd, nCount);
-
+	printf("修改成功！\n\n");
 	return;
 }
 
@@ -83,6 +86,7 @@ void exportFile(RECORD rcd[], int nCount)
 	//关闭文件
 	fclose(pFile);
 
+	printf("导出成功！\n\n");
 	return;
 }
 
@@ -131,5 +135,6 @@ void searchInfo(RECORD rcd[], int nCount)
 	}
 	printf("\n");
 
+	printf("查找成功！\n\n");
 	return;
 }
