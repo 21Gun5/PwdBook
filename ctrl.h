@@ -13,6 +13,3 @@ void modifyInfo(RECORD rcd[], int nCount);		//修改记录
 void viewAllInfo(RECORD rcd[], int nCount);		//查看所有
 void searchInfo(RECORD rcd[], int nCount);		//搜索记录
 void exportFile(RECORD rcd[], int nCount);		//导出文本文件
-
-
-
