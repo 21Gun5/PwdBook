@@ -77,7 +77,6 @@ void saveFile(RECORD rcd[], int nCount)
 	//打开文件
 	FILE* pFile = NULL;
 	errno_t err = fopen_s(&pFile, "./conf/data_en.i", "wb");	//需要w覆盖旧，而非a追加
-	//errno_t err = fopen_s(&pFile, "data_en.i", "wb");
 	chkFileOpenErr(err);
 
 	//写入文件

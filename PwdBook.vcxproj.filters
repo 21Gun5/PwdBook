@@ -18,10 +18,10 @@
     <ClCompile Include="PwdBook.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ctrl.cpp">
+    <ClCompile Include="func.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="func.cpp">
+    <ClCompile Include="ctrl.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="data.cpp">
